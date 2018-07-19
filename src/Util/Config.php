@@ -3,6 +3,12 @@
 namespace COREPOS\Recommend\Util;
 use \Exception;
 
+/**
+ * @class Config
+ *
+ * Utility class to load config.json file and
+ * do some minor validation.
+ */
 class Config
 {
     private $config = array();

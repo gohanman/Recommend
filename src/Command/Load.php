@@ -11,6 +11,13 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Helper\ProgressBar;
 use \Exception;
 
+/**
+ * @class Load
+ *
+ * Use the provided Driver instance to extract data
+ * from the source database then load that data into
+ * the graph database
+ */
 class Load extends Command
 {
     private $driver;
