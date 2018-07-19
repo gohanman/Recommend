@@ -5,7 +5,7 @@
         "password": "neo4j"
     },
     "driver": {
-        "name": "COREPOS\\Recommend\\Script",
+        "name": "COREPOS\\Recommend\\Driver\\Script",
         "options": {
             "getTransactions": "/bin/true",
             "getItem": "/bin/true"
