@@ -1,0 +1,25 @@
+{
+    "name": "core-pos/recommend",
+    "description": "Tooling to ETL into Neo4j",
+    "type": "project",
+    "require": {
+        "corepos/common-bundle": "^2.3",
+        "graphaware/neo4j-php-client": "^4.8",
+        "symfony/console": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Andy Theuninck",
+            "email": "andy@gohanman.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "COREPOS\\Recommend\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "neo4j": {
+        "host": "127.0.0.1",
+        "user": "neo4j",
+        "password": "neo4j"
+    },
+    "driver": {
+        "name": "COREPOS\\Recommend\\Script",
+        "options": {
+            "getTransactions": "/bin/true",
+            "getItem": "/bin/true"
+        }
+    }
+}
